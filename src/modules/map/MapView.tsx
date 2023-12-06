@@ -9,8 +9,8 @@ import "./Map.styles.css";
 
 export default function MapView() {
   const [waypoints, setWaypoints] = useState<LatLngExpression[]>([
-    [51.505, -0.09],
-    [51.51, -0.1],
+    // [51.505, -0.09],
+    // [51.51, -0.1],
   ]);
 
   const map = useMap();

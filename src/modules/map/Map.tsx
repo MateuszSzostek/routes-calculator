@@ -6,7 +6,7 @@ import MapView from "./MapView";
 import { LatLngExpression } from "leaflet";
 
 export default function Map() {
-  const center: LatLngExpression = [51.505, -0.09];
+  const center: LatLngExpression = [53.2463, 19.81885];
   const zoom = 13;
 
   return (
