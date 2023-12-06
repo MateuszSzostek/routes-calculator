@@ -33,9 +33,6 @@ export default function MapView() {
       const coord = e.latlng;
       const lat = coord.lat;
       const lng = coord.lng;
-      console.log(
-        "You clicked the map at latitude: " + lat + " and longitude: " + lng
-      );
 
       setWaypoints((waypoints) => [...waypoints, [lat, lng]]);
     });
